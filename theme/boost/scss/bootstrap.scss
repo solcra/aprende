@@ -1,0 +1,53 @@
+// Import Bootstrap.
+@import "bootstrap/bootstrap";
+
+/* Tablas */
+table { width: 50%; margin: 0 25%; border: 1px solid #f4f4f4; }
+table thead th { text-align: center; }
+table tbody tr { border: 1px solid #f4f4f4; }
+table tbody tr td { padding: 10px; }
+
+/* Loguion */
+body#page-login-index h1.h2.card-header.text-center {
+    background: transparent;
+}
+
+/* Botones */
+.btn-primary {
+    color: #fff;
+    background-color: #2d356c;
+    border-color: #2d356c;
+}
+.list-group-item.active {
+    z-index: 2;
+    color: #fff;
+    background-color: #2d356c;
+    border-color: #2d356c;
+}
+
+/* Footer */
+.bg-dark {
+    background-color: #2d356c!important;
+}
+
+/* Pagina principal */
+body#page-site-index.notloggedin div#page {
+    background-image: url(http://aprende.estrategiasfractal.com/pluginfile.php/2/course/section/1/Fondo.jpg);
+}
+
+body#page-site-index.notloggedin header#page-header {
+    display: none;
+}
+
+body#page-site-index.notloggedin section#region-main {
+    background-color: transparent;
+    border: none;
+    height: 100%;
+}
+
+body#page-site-index.notloggedin section#region-main > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
