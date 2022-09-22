@@ -51,3 +51,78 @@ body#page-site-index.notloggedin section#region-main > div {
     align-items: center;
     height: 100%;
 }
+
+.bac-azul {
+    background-color: #313869;
+    padding: 10px 25px;
+    color: #fff;
+    text-align: center;
+    border-radius: 100px;
+}
+
+ul.flechas {
+    border-bottom: none;
+    list-style: none !important;
+}
+ul.flechas li {
+    position: relative;
+}
+ul.flechas li:before {
+    content: "→";
+    position: absolute;
+    left: -15px;
+    top: 0px;
+    font-family: Montserrat;
+    font-weight: 800;
+}
+
+ul.azul li:before{
+    color: #313869;
+}
+ul.verde li:before{
+    color: #4ca256;
+}
+span.bac-verde {
+    background-color: #4ca256;
+    color: #fff;
+    padding: 10px 25px;
+    border-radius: 100px;
+    display: table;
+    margin-top: 10px;
+}
+table.tabla-platicos {
+    width: 60%;
+    margin: 0 20%;
+    border: 1px solid #f4f4f4;
+}
+table.tabla-platicos caption {
+    background-color: #f6dc4b;
+    color: #000;
+    font-size: 1.2em;
+    text-align: center;
+}
+table.tabla-platicos th, table.tabla-platicos td {
+    border: 1px solid #000;
+}
+
+table.tabla-papel {
+    width: 60%;
+    margin: 0 20%;
+    border: 1px solid #f4f4f4;
+}
+table.tabla-papel caption {
+    background-color: #313869;
+    color: #FFF;
+    font-size: 1.2em;
+    text-align: center;
+}
+table.tabla-papel td.x {
+    text-align: center;
+    color: #313869;
+    font-size: 2em;
+    font-weight: 800;
+}
+table.tabla-papel th, table.tabla-papel td {
+    border: 1px solid #000;
+}
+
