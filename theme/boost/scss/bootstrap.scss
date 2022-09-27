@@ -67,7 +67,7 @@ ul.flechas {
 ul.flechas li {
     position: relative;
 }
-ul.flechas li:before {
+ul.flechas > li:before {
     content: "→";
     position: absolute;
     left: -15px;
@@ -89,6 +89,28 @@ span.bac-verde {
     border-radius: 100px;
     display: table;
     margin-top: 10px;
+}
+span.bac-azul-pe {
+    background-color: #313869;
+    color: #fff;
+    padding: 10px 25px;
+    border-radius: 100px;
+    display: table;
+    margin-top: 10px;
+}
+span.bac-naranja {
+    background-color: #e94e1b;
+    color: #fff;
+    padding: 10px 25px;
+    border-radius: 100px;
+    display: table;
+    margin-top: 10px;
+}
+.bac-gris {
+    background-color: #a5a8ab;
+    color: #fff !important;
+    padding: 10px 10%;
+    font-weight: 600;
 }
 table.tabla-platicos {
     width: 60%;
@@ -126,3 +148,46 @@ table.tabla-papel th, table.tabla-papel td {
     border: 1px solid #000;
 }
 
+table.tablas-vidrio {
+    width: 70%;
+    margin: 0 15%;
+    border: 1px solid #f4f4f4;
+}
+
+table.tablas-vidrio thead {
+    background-color: #7ba9d6;
+}
+table.tablas-vidrio thead th {
+    color: #fff;
+    border: 1px solid #fff;
+}
+table.tablas-vidrio tbody tr:nth-child(odd) {
+    background-color: #f1f4f8;
+}
+table.tablas-vidrio tbody tr:nth-child(even) {
+    background-color: #dbe4f1;
+}
+table.tablas-vidrio tbody tr td {
+    border: 1px solid #fff;
+}
+table.tablas-vidrio.azul-claro caption {
+    background-color: #7ba9d6;
+    color: #fff;
+    font-size: 1em;
+    line-height: 1;
+    padding: 5px 20px;
+    border-bottom: 1px solid #fff;
+    text-align: center;
+}
+
+table.tablas-vidrio.azul-claro tbody tr td.azul-td {
+    background-color: #7ba9d6;
+    color: #fff;
+    text-align: center;
+}
+
+.bagro-marron {
+    background-color: #813529;
+    padding: 10px 15px;
+    color: #fff;
+}
